@@ -20,7 +20,7 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
         self.username = username
         self.client_id = client_id
         self.token = token
-        self.channel = '#' + channel
+        self.channel = '#' + channel.lower()
        
         # Get the channel id, we will need this for v5 API calls
         url = 'https://api.twitch.tv/kraken/users?login=' + channel
