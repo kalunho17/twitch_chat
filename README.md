@@ -1,6 +1,13 @@
 # Twitch Chat
 Retrieve real-time chat data from twitch.tv using python.
 
+# Installation
+We only need to install the IRC library.
+
+```sh
+$ pip install irc
+```
+
 # Quick Guide
 
 1. Create an application Name and Client ID on [Twitch Dev Console](https://dev.twitch.tv/console)
