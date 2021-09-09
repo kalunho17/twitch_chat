@@ -6,7 +6,6 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--c", type=str, required=True, help="Set channel id")
     return parser.parse_args()
-    #justinfanX
     
 # -----------------------------------------------------------------
 # Twitch Bot
